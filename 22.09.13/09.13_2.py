@@ -1,7 +1,7 @@
 class Calc():
     def __init__(self, a, b):
-        self.a = a
-        self.b = b
+        self.a = int(input())
+        self.b = int(input())
 
     def plus(self):
         return self.a + self.b
